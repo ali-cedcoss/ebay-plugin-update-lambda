@@ -20,6 +20,6 @@ export function getLatestVersion(plugin: string): Plugin {
 
   return {
     version,
-    filePath: `https://wp-plugin-update.vercel.app/plugins/${plugin}/${version}/${file}`,
+    filePath: `https://ebay-plugin-update-lambda.vercel.app/plugins/${plugin}/${version}/${file}`,
   };
 }
